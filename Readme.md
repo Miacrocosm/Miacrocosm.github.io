@@ -1,4 +1,4 @@
-# Personal Portfolio 🔥
+# Personal Portfolio
 
 # Credits
 > https://github.com/rajaprerak/rajaprerak.github.io
