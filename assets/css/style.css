@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #464646;
+  background: url('https://giphy.com/embed/3q3SUqPnxZGQpMNcjc');
   background-size: cover;
   left: 0;
   right: 0;
