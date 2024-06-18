@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 a, #header h1 a:hover {
-  color: #dee2e6;
+  color: #ffffff;
   line-height: 1;
   display: inline-block;
 }
@@ -330,7 +330,7 @@ section.section-show {
 }
 
 section .container {
-  background: #2e2e2e;
+  background: #3b3b3b;
   padding: 30px;
 }
 
