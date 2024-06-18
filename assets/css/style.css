@@ -762,7 +762,7 @@ section .container {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #2e2e2e;
+  background: transparent;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -774,12 +774,12 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: #2e2e2e;
+  background: transparent;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: #2e2e2e;
+  background: transparent;
   position: absolute;
   left: 30px;
   right: 30px;
