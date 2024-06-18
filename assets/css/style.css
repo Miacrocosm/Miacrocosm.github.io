@@ -18,8 +18,8 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #464646;
-  background-size: cover;
+  background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjZnd3ZldDVoaWtlNDMwcWtwMDJycGloY3d4NHNkenhzdzYxanprYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3q3SUqPnxZGQpMNcjc/giphy.webp');
+  background-size: 100% 100%;
   left: 0;
   right: 0;
   top: 0;
