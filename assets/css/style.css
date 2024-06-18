@@ -891,10 +891,10 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #2e2e2e;
+  color: transparent;
   padding: 20px;
   width: 100%;
-  background: #2e2e2e;
+  background: transparent;
 }
 
 .contact .info-box i.bx {
@@ -903,7 +903,7 @@ section .container {
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: #2e2e2e;
+  background: transparent;
 }
 
 .contact .info-box h3 {
