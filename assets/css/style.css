@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #000000;
+  background: #4d4d4d;
   background-size: cover;
   left: 0;
   right: 0;
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgb(0, 0, 0);
+  background: #2e2e2e;
   color: #fff;
   line-height: 1;
   margin-right: 8px;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #00858f;
+  background-color: #2e2e2e;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: rgb(0, 0, 0);
+  background: #2e2e2e;
   transition: ease-in-out 0s;
   opacity: 0;
   visibility: hidden;
@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(9, 9, 9, 0.6);
+  background: #2e2e2e;
   overflow: hidden;
   display: none;
   transition: ease-in-out 0s;
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   top: 0;
   right: 0;
-  background: #09203a;
+  background: #2e2e2e;
 }
 
 #header.header-top .social-links, #header.header-top h2 {
@@ -327,7 +327,7 @@ section.section-show {
 }
 
 section .container {
-  background: rgba(0, 0, 0, 0);
+  background: #2e2e2e;
   padding: 30px;
 }
 
@@ -357,7 +357,7 @@ section .container {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #dee2e6;
+  background: #2e2e2e;
   margin: 4px 10px;
 }
 
@@ -411,7 +411,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
-  background: rgba(255, 255, 255, 0.08);
+  background: #2e2e2e;
 }
 
 .counts .count-box i {
@@ -420,7 +420,7 @@ section .container {
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #2e2e2e;
   padding: 12px;
   color: #005463;
   border-radius: 50px;
@@ -465,14 +465,14 @@ section .container {
 }
 
 .skills .progress-bar-wrap {
-  background: rgb(0, 0, 0);
+  background: #2e2e2e;
 }
 
 .skills .progress-bar {
   width: 1px;
   height: 10px;
   transition: .9s;
-  background-color: #005f77;
+  background-color: #2e2e2e;
 }
 
 /*--------------------------------------------------------------
@@ -482,7 +482,7 @@ section .container {
   display: flex;
   align-items: center;
   padding: 20px;
-  background: #09203a;
+  background: #2e2e2e;
   transition: ease-in-out 0.3s;
 }
 
@@ -503,7 +503,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: #042b56eb;
+  background: #2e2e2e;
 }
 
 /*--------------------------------------------------------------
@@ -558,7 +558,7 @@ section .container {
   font-style: italic;
   margin: 0 15px 0 15px;
   padding: 20px 20px 60px 20px;
-  background: rgba(255, 255, 255, 0.1);
+  background: #2e2e2e;
   position: relative;
   border-radius: 6px;
   position: relative;
@@ -576,11 +576,11 @@ section .container {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.3) !important;
+  background-color: #8d8d8d !important;
 }
 
 .testimonials .owl-dot.active {
-  background-color: #005f77 !important;
+  background-color: #2e2e2e !important;
 }
 
 @media (max-width: 767px) {
@@ -619,7 +619,7 @@ section .container {
 
 .resume .resume-item h5 {
   font-size: 16px;
-  background: rgb(0, 0, 0);
+  background: #2e2e2e;
   padding: 5px 15px;
   display: inline-block;
   font-weight: 600;
@@ -646,8 +646,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #9e7f25;
-  border: 2px solid #9e7f25;
+  background: #2e2e2e;
+  border: 2px solid #2e2e2e;
 }
 
 /*--------------------------------------------------------------
@@ -655,7 +655,7 @@ section .container {
 --------------------------------------------------------------*/
 .services .icon-box {
   text-align: center;
-  background: #09203a;
+  background: #2e2e2e;
   padding: 40px 40px;
   transition: all ease-in-out 0.3s;
   margin: 10px
@@ -665,7 +665,7 @@ section .container {
   margin: 0 auto;
   width: 64px;
   height: 64px;
-  background: #005f77;
+  background: #2e2e2e;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   display: flex;
@@ -687,7 +687,7 @@ section .container {
   top: -8px;
   height: 100%;
   width: 100%;
-  background: rgb(0, 0, 0);
+  background: #2e2e2e;
   border-radius: 5px;
   transition: all .3s ease-out 0s;
   transform: translateZ(-1px);
@@ -711,7 +711,7 @@ section .container {
 
 .services .icon-box:hover {
   background: rgb(0, 247, 255);
-  border-color: #005f77;
+  border-color: #2e2e2e;
 }
 
 .services .icon-box:hover .icon {
@@ -719,15 +719,15 @@ section .container {
 }
 
 .services .icon-box:hover .icon i {
-  color: #005f77;
+  color: #2e2e2e;
 }
 
 .services .icon-box:hover .icon::before {
-  background: #00aeff;
+  background: #2e2e2e;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #00aeff;
+  color: #2e2e2e;
 }
 
 /*--------------------------------------------------------------
@@ -755,14 +755,14 @@ section .container {
   line-height: 1;
   text-transform: uppercase;
   color: #fff;
-  background: rgba(255, 255, 255, 0.1);
+  background: #2e2e2e;
   margin: 0 3px 10px 3px;
   transition: all 0.3s ease-in-out;
   border-radius: 4px;
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  background: #1c7d32;
+  background: #2e2e2e;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -774,12 +774,12 @@ section .container {
   position: relative;
   overflow: hidden;
   z-index: 1;
-  background: rgba(0, 0, 0, 0.6);
+  background: #2e2e2e;
 }
 
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: #2e2e2e;
   position: absolute;
   left: 30px;
   right: 30px;
@@ -891,10 +891,10 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444444;
+  color: #2e2e2e;
   padding: 20px;
   width: 100%;
-  background: #09203a;
+  background: #2e2e2e;
 }
 
 .contact .info-box i.bx {
@@ -903,12 +903,12 @@ section .container {
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: rgba(255, 255, 255, 0.1);
+  background: #2e2e2e;
 }
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #28a745;
+  color: #00ffff;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
@@ -941,12 +941,12 @@ section .container {
 
 .contact .php-email-form {
   padding: 30px;
-  background: rgb(0, 0, 0);
+  background: #2e2e2e;
 }
 
 .contact .php-email-form .validate {
   display: none;
-  color: rgb(0, 4, 255);
+  color: #2e2e2e;
   margin: 0 0 15px 0;
   font-weight: 400;
   font-size: 13px;
@@ -954,7 +954,7 @@ section .container {
 
 .contact .php-email-form .error-message {
   display: none;
-  background: rgb(0, 0, 0);
+  background: #2e2e2e;
   background: #00aeff;
   text-align: center;
   padding: 15px;
@@ -963,8 +963,8 @@ section .container {
 
 .contact .php-email-form .sent-message {
   display: none;
-  background: rgb(0, 0, 0);
-  background: #00686b;
+  background: #2e2e2e;
+  background: #8f8f8f;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -972,7 +972,7 @@ section .container {
 
 .contact .php-email-form .loading {
   display: none;
-  background: rgba(255, 255, 255, 0.08);
+  background: #2e2e2e;
   text-align: center;
   padding: 15px;
 }
@@ -984,7 +984,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #005e6e;
+  border: 3px solid #2e2e2e;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -994,7 +994,7 @@ section .container {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
-  background: rgba(255, 0, 0, 0);
+  background: #2e2e2e;
   border: 0;
   transition: 0.3s;
   color: #fff;
@@ -1005,27 +1005,27 @@ section .container {
 }
 
 .contact .php-email-form input::-webkit-input-placeholder, .contact .php-email-form textarea::-webkit-input-placeholder {
-  color: rgb(0, 0, 0);
+  color: #2e2e2e;
   opacity: 1;
 }
 
 .contact .php-email-form input::-moz-placeholder, .contact .php-email-form textarea::-moz-placeholder {
-  color: rgb(0, 0, 0);
+  color: #2e2e2e;
   opacity: 1;
 }
 
 .contact .php-email-form input:-ms-input-placeholder, .contact .php-email-form textarea:-ms-input-placeholder {
-  color: rgb(0, 0, 0);
+  color: #2e2e2e;
   opacity: 1;
 }
 
 .contact .php-email-form input::-ms-input-placeholder, .contact .php-email-form textarea::-ms-input-placeholder {
-  color: rgb(0, 0, 0);
+  color: #2e2e2e;
   opacity: 1;
 }
 
 .contact .php-email-form input::placeholder, .contact .php-email-form textarea::placeholder {
-  color: rgb(0, 0, 0);
+  color: #2e2e2e;
   opacity: 1;
 }
 
@@ -1038,7 +1038,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #004d70;
+  background: #2e2e2e;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1081,7 +1081,7 @@ section .container {
 }
 
 .credits a {
-  color: #005a8f;
+  color: #2e2e2e;
   transition: 0.3s;
 }
 
