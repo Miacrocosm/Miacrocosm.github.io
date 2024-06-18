@@ -19,12 +19,14 @@ body::before {
   content: "";
   position: fixed;
   background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzR2NDNwYWI0NTFnbmhvaDRtbGhjaGF3bXAwaG1sbnl0cTc0dDN0ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RlwF2vFb4y7bDnWvcO/giphy.webp');
-  background-size: 100% 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
 }
+
 
 
 @media (min-width: 1024px) {
