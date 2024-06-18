@@ -220,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   border-radius: 10px;
   padding: 10px 0;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .mobile-nav * {
@@ -520,7 +520,7 @@ section .container {
   margin: -40px 0 0 40px;
   position: relative;
   z-index: 2;
-  border: 6px solid rgb(0, 0, 0);
+  border: 6px solid rgb(255, 255, 255);
 }
 
 .testimonials .testimonial-item h3 {
@@ -711,7 +711,7 @@ section .container {
 
 .services .icon-box:hover {
   background: rgb(0, 247, 255);
-  border-color: #2e2e2e;
+  border-color: #202020;
 }
 
 .services .icon-box:hover .icon {
