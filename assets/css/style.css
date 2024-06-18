@@ -891,7 +891,7 @@ section .container {
 # Contact
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #383838;
+  color: #ffffff;
   padding: 20px;
   width: 100%;
   background: transparent;
@@ -899,11 +899,11 @@ section .container {
 
 .contact .info-box i.bx {
   font-size: 24px;
-  color: #383838;
+  color: #ffffff;
   border-radius: 50%;
   padding: 14px;
   float: left;
-  background: transparent;
+  background: #383838;
 }
 
 .contact .info-box h3 {
@@ -915,7 +915,7 @@ section .container {
 
 .contact .info-box p {
   padding: 0;
-  color: #fff;
+  color: #000000;
   line-height: 24px;
   font-size: 14px;
   margin: 0 0 0 68px;
