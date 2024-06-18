@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzR2NDNwYWI0NTFnbmhvaDRtbGhjaGF3bXAwaG1sbnl0cTc0dDN0ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RlwF2vFb4y7bDnWvcO/giphy.webp');
+  background: #424242
   background-size: contain;
   left: 0;
   right: 0;
