@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: url('https://giphy.com/embed/3q3SUqPnxZGQpMNcjc');
+  background: url('https://path_to_your_gif_file.gif');
   background-size: cover;
   left: 0;
   right: 0;
