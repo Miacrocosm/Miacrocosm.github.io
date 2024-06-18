@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjZnd3ZldDVoaWtlNDMwcWtwMDJycGloY3d4NHNkenhzdzYxanprYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3q3SUqPnxZGQpMNcjc/giphy.webp');
+  background: url('https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGNpYm9xZXdxbGNsZjJkNWVyZWNhN2c4a3lpamJ2YXU3NXcydHVmbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YnjxvrvonPCcDtdppt/giphy.webp');
   background-size: 100% 100%;
   left: 0;
   right: 0;
