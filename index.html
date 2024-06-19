@@ -57,18 +57,18 @@
 <html>
 <head>
 <style>
-@keyframes colorchange {
-  0%   {color: rgb(0, 238, 255);}
-  25%  {color: rgb(0, 162, 255);}
-  50%  {color: rgb(0, 102, 255);}
-  75%  {color: rgb(0, 162, 255);}
-  100% {color: rgb(0, 238, 255);}
+@keyframes wave-animation {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(15deg); }
+  75% { transform: rotate(-15deg); }
 }
 
 h1 a {
-  animation-name: colorchange;
-  animation-duration: 10s;
+  display: inline-block;
+  animation-name: wave-animation;
+  animation-duration: 1s;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 }
 </style>
 </head>
