@@ -50,26 +50,6 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 </head>
-<body>
-<!-- Add this audio tag to your body -->
-  <audio id="myAudio">
-    <source src="assets/audio/perfect-beauty-191271.mp3" type="audio/mpeg">
-    Your browser does not support the audio element.
-  </audio>
-
-  <div id="welcomeMessage" onclick="playAudio()" style="cursor: pointer; background-color: #f0f0f0; color: #000; border: 1px solid #ccc;">
-    <h1>Welcome to my website!</h1>
-    <p>Click anywhere on this message to proceed.</p>
-  </div>
-
-  <script>
-    function playAudio() {
-      var x = document.getElementById("myAudio");
-      x.play();
-      document.getElementById("welcomeMessage").style.display = 'none';
-    }
-  </script>
-</body>
 
 <body>
   <style>
@@ -89,7 +69,12 @@
   }
   </style>
 <body>
-  
+  <!-- Add this audio tag to your body -->
+  <audio id="myAudio">
+    <source src="assets/audio/perfect-beauty-191271.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -104,16 +89,13 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li class="active"><a href="#header"> <span>Home</span></a></li>
-          <li><a href="#about"><span>About</span></a></li>
-          <li><a href="#education"> <span>Education</span></a></li>
-          <li><a href="#experience"> <span>Experience</span></a></li>
-<!--          <li><a href="#projects"> <span>Projects</span></a></li>-->
-          <li><a href="#portfolio"> <span>Projects</span></a></li>
-          <li><a href="#skills"> <span>Skills</span></a></li>
-          <li><a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:feebacca-707e-4b1f-8bdc-ee7f96c3fe68" target="_blank"> <span>Resume</span></a></li>
-          <!-- <li><a href="#links"> <span>Resume & Links</span></a></li> -->
-          <li><a href="#contacts"> <span>Contact</span></a></li>
-
+          <li><a href="#about" onclick="playAudio()"><span>About</span></a></li>
+          <li><a href="#education" onclick="playAudio()"> <span>Education</span></a></li>
+          <li><a href="#experience" onclick="playAudio()"> <span>Experience</span></a></li>
+          <li><a href="#portfolio" onclick="playAudio()"> <span>Projects</span></a></li>
+          <li><a href="#skills" onclick="playAudio()"> <span>Skills</span></a></li>
+          <li><a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:feebacca-707e-4b1f-8bdc-ee7f96c3fe68" target="_blank" onclick="playAudio()"> <span>Resume</span></a></li>
+          <li><a href="#contacts" onclick="playAudio()"> <span>Contact</span></a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -121,11 +103,19 @@
           <a href="https://linkedin.com/in/symaedchit-octavius-leo" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
           <a href="https://github.com/Miacrocosm" target="_blank" class="github"><i class="bx bxl-github"></i></a>
           <a href="mailto:symaedchitleo@gmail.com" target="_blank" class="google"><i class="bx bxl-google"></i></a>
-
       </div>
 
     </div>
   </header><!-- End Header -->
+
+  <script>
+    function playAudio() {
+      var x = document.getElementById("myAudio");
+      x.play();
+    }
+  </script>
+</body>
+
 
   <!-- ======= About Section ======= -->
   <section id="about" class="about">
