@@ -75,8 +75,6 @@
     Your browser does not support the audio element.
   </audio>
 
-  <input id="volumeSlider" type="range" min="0" max="1" step="0.01" onchange="adjustVolume()" />
-
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5BB8W2X"
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -114,12 +112,6 @@
     function playAudio() {
       var x = document.getElementById("myAudio");
       x.play();
-    }
-
-    function adjustVolume() {
-      var x = document.getElementById("myAudio");
-      var volumeSlider = document.getElementById("volumeSlider");
-      x.volume = volumeSlider.value;
     }
   </script>
 </body>
