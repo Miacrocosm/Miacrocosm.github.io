@@ -57,16 +57,21 @@
     Your browser does not support the audio element.
   </audio>
 
-  <button onclick="playAudio()" type="button">Play Audio</button>
+  <div id="welcomeMessage" onclick="playAudio()" style="cursor: pointer;">
+    <h1>Welcome to my website!</h1>
+    <p>Click anywhere on this message to proceed.</p>
+  </div>
 
   <script>
     function playAudio() {
       var x = document.getElementById("myAudio");
       x.play();
+      document.getElementById("welcomeMessage").style.display = 'none';
     }
   </script>
+</body>
 
-
+<body>
   <style>
   @keyframes color-wave {
     0% { background-position: 0% 50%; }
