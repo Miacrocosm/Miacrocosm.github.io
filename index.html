@@ -70,8 +70,8 @@
   </style>
 <body>
   <!-- Add this audio tag to your body -->
-  <audio id="myAudio" loop>
-    <source src="assets/audio/Shelter.mp3" type="audio/mpeg">
+  <audio id="myAudio" onended="playNextAudio()">
+    <source id="audioSource" src="assets/audio/perfect-beauty-191271.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 
@@ -109,10 +109,29 @@
   </header><!-- End Header -->
 
   <script>
+    var audioList = [
+      "assets/audio/Shelter.mp3",
+      "assets/audio/perfect-beauty-191271.mp3"
+      // add more songs here
+    ];
+    var currentAudioIndex = 0;
+
     function playAudio() {
       var x = document.getElementById("myAudio");
-      x.volume = 0.08; // Set volume to 50%
+      x.volume = 0.08; // Set volume 
       x.play();
+    }
+
+    function playNextAudio() {
+      currentAudioIndex++;
+      if (currentAudioIndex >= audioList.length) {
+        currentAudioIndex = 0; // loop back to the first song
+      }
+      var x = document.getElementById("myAudio");
+      var source = document.getElementById("audioSource");
+      source.src = audioList[currentAudioIndex];
+      x.load();
+      playAudio();
     }
   </script>
 </body>
