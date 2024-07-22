@@ -52,10 +52,19 @@
 </head>
 <body>
 <!-- Add this audio tag to your body -->
-  <audio autoplay loop>
+  <audio id="myAudio">
     <source src="assets/audio/perfect-beauty-191271.mp3" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
+
+  <button onclick="playAudio()" type="button">Play Audio</button>
+
+  <script>
+    function playAudio() {
+      var x = document.getElementById("myAudio");
+      x.play();
+    }
+  </script>
 
 
   <style>
